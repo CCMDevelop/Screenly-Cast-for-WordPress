@@ -29,9 +29,7 @@ require_once 'header.php';
 
         <article>
             <h1><?php the_title();?></h1>
-            <time datetime="<?php echo get_the_date('T Y-m-d H:i'); ?>">
-                <?php the_date('M d Y'); ?>
-            </time>
+
             <?php the_content();?>
         </article>
 
